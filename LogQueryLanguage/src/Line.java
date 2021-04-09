@@ -18,6 +18,7 @@ public class Line {
 		public String getClassName(){
 			return this.className;
 		}
+		
 		public String toString(){
 			return "threadId = " + this.threadId +"\n className ="+this.className+"\n";
 		}
